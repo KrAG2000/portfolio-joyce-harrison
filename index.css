@@ -1,0 +1,141 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+td{
+    padding: 0 0.5rem;
+}
+
+
+/* Level-1 */
+.level-1{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    padding: 0;
+}
+
+.div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+}
+
+/* Level-2 */
+.division{
+    border-bottom: 0.5px solid rgb(213, 213, 213);
+    padding: 1rem;
+}
+
+/* .about-me{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    padding: 0 0%;
+    justify-content: start;
+    align-items: center;
+} */
+
+.div-2{
+    width: 80vw;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.75rem black;
+}
+
+.image-div{
+    position: relative;
+    background: url(./blue.jpg) no-repeat ;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.intro{
+    color: white;
+    position: relative;
+    left: 35%;
+}
+
+.section-image{
+    position: absolute;
+    width: 140px;
+    bottom: -5%;
+    left: 5%;
+    border: 5px solid white;
+}
+
+.professional-skills{
+    display: grid;
+    grid-template-columns:  50% 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.work-experience, .education{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(200, 200, 200);
+}
+
+.blocks{
+    position: relative;
+    padding: 0.5rem;
+    margin: 1.5rem;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.work-experience .blocks{
+    border-left: 3px solid rgb(0, 103, 206);
+}
+
+.education .blocks{
+    border-left: 3px solid rgb(0, 195, 120);
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    justify-content:space-around;
+    align-items: start;
+}
+
+.sub-form{
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+input[type=text], input[type=email]{
+    margin: 0 0 1% 0.5%;
+}
+
+textarea, input[type=button]{
+    margin: 0 0 1% 0.5%;
+}
+
+.svg{
+    position: absolute;
+    left: -2rem;
+
+}
+
+/* Level-3 */
+
+.div-3{
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 750px) {
+    .section-image, .intro{
+        position: relative;
+        left: 2%;
+        margin: 1%;
+    }
+
+}
