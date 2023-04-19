@@ -22,6 +22,8 @@ td{
     justify-content: space-between;
     align-items: center;
     height: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
 /* Level-2 */
