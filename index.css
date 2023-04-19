@@ -75,6 +75,10 @@ td{
     padding: 1rem 0;
 }
 
+.left{
+    margin-right: 0.75rem;
+}
+
 .work-experience, .education{
     display: grid;
     grid-template-rows: auto auto auto;
