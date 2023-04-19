@@ -48,7 +48,7 @@ td{
 
 .image-div{
     position: relative;
-    background: url(./blue.jpg);
+    background: url(./blue.jpg) repear;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
 }
